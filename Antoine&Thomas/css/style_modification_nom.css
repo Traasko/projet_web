@@ -1,0 +1,67 @@
+body,html{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+/* HEADER */
+
+.header{
+	background-color: white;
+	height: 70px;
+	line-height: 70px;
+}
+
+.logo{
+	color: #3498db;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	float: left;
+	text-decoration: none;
+}
+
+.header a:hover{
+	text-decoration: none;
+}
+
+.menu{
+	float: right;
+}
+
+.menu .btn-warning{
+	margin-right: 20px;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+/* HEADER */
+
+/* ABOUT */
+
+.modif{
+	text-align: center;
+	margin-top: 15%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.modif input{
+	text-align: center;
+	border-radius: 15px;
+	box-shadow: none;
+	border-style: solid;
+}
+
+/* ABOUT */

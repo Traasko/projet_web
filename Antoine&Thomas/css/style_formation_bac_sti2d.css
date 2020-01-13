@@ -1,0 +1,266 @@
+body,html{
+	padding: 0;
+	margin: 0;
+	 background: white;
+	 /*background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.65'%3E%3Cpolygon fill='%23d4e3fc' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23a8c8f9' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%237dacf6' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%235291f3' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%232775f0' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%230f5ed9' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%230c4bae' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover; */
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+/* Header */
+
+.header{
+	background-color: white;
+	height: 70px;
+	line-height: 70px;
+}
+
+.logo{
+	color: #3498db;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	float: left;
+	text-decoration: none;
+}
+
+.menu{
+	float: right;
+}
+
+.menu .btn-warning{
+	margin-right: 20px;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+.menu .btn-primary{
+	padding: 10px;
+	border-radius: 25px;
+}
+
+/* Header */
+
+/* About */
+
+.about h1{
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	font-family: 'Permanent Marker', cursive;
+	color: #3498db;
+	font-size: 65px;
+}
+
+.precision .btn-custom{
+	cursor: default;
+	border-radius: 25px;
+}
+
+.precision {
+	text-align: center;
+	margin-bottom: 95px;
+}
+
+.precision h3{
+	font-family: 'Permanent Marker', cursive;
+	color: #e74c3c;
+	font-size: 35px;
+}
+
+.precision h4{
+	font-family: 'Permanent Marker', cursive;
+	color: #e74c3c;
+	font-size: 20px;
+}
+
+.precision p{
+	font-size: 15px;
+}
+
+.objectif {
+	text-align: center;
+	margin-bottom: 95px;
+}
+
+.objectif h2{
+	
+	color: #e74c3c;
+}
+
+.objectif h4{
+	
+	color: #3498db;
+	text-align: justify;
+	font-weight: bold;
+}
+
+.objectif p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+.poursuite {
+	text-align: center;
+	margin-bottom: 95px;
+}
+
+.poursuite h2{
+	
+	color: #e74c3c;
+}
+
+.poursuite p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+.debouche {
+	text-align: center;
+	margin-bottom: 95px;
+}
+
+.debouche h2{
+	
+	color: #e74c3c;
+}
+
+.debouche p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+.projet {
+	text-align: center;
+	margin-bottom: 95px;
+}
+
+.projet h2{
+	
+	color: #e74c3c;
+}
+
+.projet p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+.terminal-projet{
+	text-align: center;
+	margin-bottom: 95px;
+}
+
+.terminal-projet h2{
+	
+	color: #e74c3c;
+}
+
+.terminal-projet p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+.apply-btn .btn-custom{
+	text-align: center;
+	padding: 23px 85px 23px 85px;
+	color: white;
+	background-image: linear-gradient(120deg,#3498db,#9b59b6);
+	text-transform: uppercase;
+	border-radius: 25px
+}
+
+.apply-btn{
+	text-align: center;
+}
+
+
+/* Footer */
+
+.pieds{
+	background-color: transparent;
+	margin-top: 150px;
+}
+
+.Copyright{
+	text-align: center;
+	text-decoration: none;
+}
+
+.Copyright a,a:hover{
+	text-decoration: none;
+	color: #ff6348;
+	letter-spacing: 2px;
+}
+
+.contact-info{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 15px;
+}
+
+.info{
+	background: transparent;
+	padding: 0 15px;
+	margin: 0 15px;
+	width: calc(33% - 20px);
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.info-icon{
+	font-size: 28px;
+	background:	#ff6348;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 50%;
+	transition: 0.3s linear;
+}
+
+.info:hover .info-icon{
+	background: none;
+	color: #ff6348;
+	transform: scale(1.6);
+}
+
+.info p{
+	margin-top: 25px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	max-height: 0;
+	opacity: 0;
+	transition: 0.3s linear;
+	color: #ff6348;
+}
+
+.info:hover p{
+	max-height: 40px;
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+	.contact-info{
+		flex-direction: column;
+	}
+}
+
+/* Footer */
