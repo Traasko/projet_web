@@ -15,7 +15,6 @@ $reponse->execute(array(
 'pwd'=>md5($_POST['pwd'])));
 $donne=$reponse->fetch();
 
-var_dump($donne);
 
 if (isset($_POST['login']) && isset($_POST['pwd'])) {
 
